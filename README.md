@@ -1,1 +1,3 @@
 # word-to-word-conversion
+Bu projede bize verilen iki kelime için, ilk kelimenin ikinci kelimeye dönüşüp dönüşmediğini saptamamız istenmiştir. Ancak bu dönüşüm kademeli bir şekilde olmaktadır. Bunun anlamı her aşamada sadece tek bir harf değiştirerek birinci kelimeden ikinci kelimeye ulaşmamız gerekmektedir. Bu dönüşüm esnasında hangi kelimelerden geçildiğini bulmamız istenmiştir.
+Bu problemi çözerken, verilen bir kelimeden her adımda başka bir kelimeye ulaşmak için graph veri yapısını kullanmamız istenmiştir. Bu graph’ın düğümlerini kelimeler oluşturmalıdır. Eğer bir kelimenin sadece bir harfi değiştirilerek diğer kelimeye geçiliyorsa bunun anlamı arada bağlantı var demektir.
